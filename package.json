@@ -1,0 +1,36 @@
+{
+  "name": "silly-ts-project-template",
+  "version": "0.0.1",
+  "description": "*",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 0",
+    "clean": "rm -rf ./build",
+    "build": "tsc",
+    "start": "node ./build/index.js",
+    "build:dev": "npm run clean && npm run build",
+    "build:start": "npm run clean && npm run build && npm run start",
+    "format": "prettier --write ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/*/*.git"
+  },
+  "author": "*",
+  "license": "*",
+  "bugs": {
+    "url": "https://github.com/*/*/issues"
+  },
+  "homepage": "https://github.com/*/*#readme",
+  "devDependencies": {
+    "prettier": "^3.2.5",
+    "typescript": "^5.4.2"
+  },
+  "dependencies": {
+    "pino": "^8.19.0",
+    "pino-pretty": "^10.3.1",
+    "source-map-support": "^0.5.21",
+    "ts-node": "^10.9.2"
+  },
+  "packageManager": "pnpm@8.15.5+sha256.4b4efa12490e5055d59b9b9fc9438b7d581a6b7af3b5675eb5c5f447cee1a589"
+}

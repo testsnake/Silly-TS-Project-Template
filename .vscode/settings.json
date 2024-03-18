@@ -1,0 +1,9 @@
+{
+    "npm.packageManager": "pnpm",
+    "editor.formatOnSave": true,
+    "prettier.tabWidth": 4,
+    "prettier.printWidth": 120,
+    "editor.tabSize": 4,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.defaultFoldingRangeProvider": "GitHub.copilot"
+}
